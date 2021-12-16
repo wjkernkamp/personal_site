@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+}
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.b1 {
+    position: relative;
+    text-align: center;
+}
+
+.center_text {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 200px;
+    color: brown;
+}
